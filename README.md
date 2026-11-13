@@ -98,14 +98,13 @@ See [Architecture](docs/architecture.md) and
 [Networking and storage](docs/networking-and-storage.md) for implementation
 details.
 
-## Engineering notes
+## Notes
 
 This repository documents a homelab configuration and its design decisions.
 The host and services are currently offline, so the files should be treated as
 a reconstruction of the previous setup rather than proof of a currently
 running deployment.
 
-- [Challenges and lessons learned](docs/lessons-learned.md)
 - [Networking and storage](docs/networking-and-storage.md)
 
 ## Current status
