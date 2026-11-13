@@ -1,0 +1,33 @@
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# Backups and databases
+*.vma
+*.vma.zst
+*.vma.lzo
+*.img
+*.qcow2
+*.vmdk
+*.sql
+*.dump
+*.db
+
+# Media and large files
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.webm
+
+# System files
+.DS_Store
+Thumbs.db
+!.env.example
