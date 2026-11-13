@@ -8,7 +8,7 @@ My personal homelab project documenting virtualization, self-hosted services, ne
 |---|---|
 | CPU | AMD Ryzen 7 5700 |
 | Motherboard | Gigabyte B550 Gaming X V2 |
-| RAM | 16 GB DDR4 |
+| RAM | 32 GB DDR4 |
 | Hypervisor | Proxmox VE |
 
 ## Virtualization
@@ -60,15 +60,6 @@ The Proxmox host uses a Linux bridge and NAT for the VM network.
 - Passwords and API keys must not be committed.
 - Private SSH keys and certificates must remain private.
 - Backups, databases, and personal media are stored separately.
-
-## Recovery
-
-1. Reinstall Proxmox and configure storage and networking.
-2. Restore or recreate VM 100.
-3. Install Docker inside Ubuntu Server.
-4. Restore service data from separate backups.
-5. Recreate `.env` files using the example templates.
-6. Deploy and verify services individually.
 
 ## Project status
 
