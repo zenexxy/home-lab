@@ -73,3 +73,4 @@ The Proxmox host uses a Linux bridge and NAT for the VM network.
 ## Project status
 
 This repository is being reconstructed from previous homelab configurations. Some configurations may need updating before redeployment.
+# home-lab
