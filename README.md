@@ -73,7 +73,7 @@ machine. Docker Compose runs the self-hosted applications inside that VM.
 ```mermaid
 flowchart TB
     Internet((Internet))
-    Host["Proxmox VE host<br/>Ryzen 7 5700 · 16 GB RAM"]
+    Host["Proxmox VE host<br/>Ryzen 7 5700 · 32 GB RAM"]
     Bridge["vmbr1 virtual bridge<br/>10.10.100.0/24"]
     VM["Ubuntu Server VM<br/>4 vCPU · 8 GB RAM · 100 GB disk"]
     Docker["Docker Engine / Compose"]
